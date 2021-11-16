@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bulb on bulb off</title>
+    <style>
+    .bulb-container{
+        border-color: aquamarine;
+    
+        
+      
+    } 
+    </style>
+   
+</head>
+<body>
+   <h1>HERE IS MY BULB CONTROL</h1> 
+   <button onclick="turnon()"> TURN ON</button>
+   <button onclick="turnof()"> TURN OF</button>
+   
+   <div class="bulb-container">
+       
+
+    <img id="bulb" src="images/bulbr2.jpg" alt=" " />
+    <script>
+        const turnon = () =>{
+            let imgob=document.getElementById("bulb");
+            imgob.setAttribute("src","images/bulbr1.jpg");
+        
+        }
+        const turnof = () =>{
+            let imgob=document.getElementById("bulb");
+            imgob.setAttribute("src","images/bulbr2.jpg");
+        
+        }
+        
+        </script>
+ 
+  </div>
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
